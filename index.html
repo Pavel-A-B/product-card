@@ -4,24 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://googleapis.com" rel="stylesheet" />
   </head>
-  <body>
-    <header><h1>Выбери свой продукт</h1></header>
-    <main>
-      <article>
-        <img src="/assets/card-1.svg" alt="card-1" />
-        <h4>для нормальной кожи</h4>
-        <h2>Увлажняющий мусс</h2>
-        <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
-        <span>Состав:</span>
-        <ul>
-          <li>активные натуральные комплексы</li>
-          <li>витамины С, А, РР, В И Е</li>
-          <li>солнцезащитные компоненты</li>
-        </ul>
+  <body class="container">
+    <header class="head">Выбери свой продукт</header>
+    <main class="content">
+      <article class="card">
+        <img class="card_img" src="/assets/card-1.svg" alt="card-1" />
+        <p class="specific">для нормальной кожи</p>
+        <p class="name">Увлажняющий мусс</p>
+        <p class="description">
+          Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.
+        </p>
+        <div class="compound">
+          <span>Состав:</span>
+          <ul class="components">
+            <li>активные натуральные комплексы</li>
+            <li>витамины С, А, РР, В И Е</li>
+            <li>солнцезащитные компоненты</li>
+          </ul>
+        </div>
         <div class="cost">
           <strong>Цена</strong>
-          <span>2 750 ₽</span>
+          <span class="numbers">2 750 ₽</span>
+        </div>
+      </article>
+      <article class="card">
+        <img class="card_img" src="/assets/card-2.png" alt="card-2" />
+        <p class="specific">для нормальной кожи</p>
+        <p class="name">Увлажняющая маска</p>
+        <p class="description">
+          Способствует удерживанию влаги в верхних слоях кожи.
+        </p>
+        <div class="compound">
+          <span>Состав:</span>
+          <ul class="components">
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="cost">
+          <strong>Цена</strong>
+          <span class="numbers">3 500 ₽</span>
+        </div>
+      </article>
+      <article class="card">
+        <img class="card_img" src="/assets/card-3.png" alt="card-3" />
+        <p class="specific">для нормальной кожи</p>
+        <p class="name">Гель для умывания</p>
+        <p class="description">
+          Интенсивно очищает, не повреждает защитный барьер кожи.
+        </p>
+        <div class="compound">
+          <span>Состав:</span>
+          <ul class="components">
+            <li>минералы</li>
+            <li>витамины С, А, РР, В И Е</li>
+            <li>солнцезащитные компоненты</li>
+          </ul>
+        </div>
+        <div class="cost">
+          <strong>Цена</strong>
+          <span class="numbers">1 650 ₽</span>
+        </div>
+      </article>
+      <article class="card">
+        <img class="card_img" src="/assets/card-4.png" alt="card-4" />
+        <p class="specific">для нормальной кожи</p>
+        <p class="name">Подарочный набор №1</p>
+        <p class="description">
+          Набор, состоящий из увлажняющего крема и маски.
+        </p>
+        <div class="compound">
+          <span>Состав:</span>
+          <ul class="components">
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="cost">
+          <strong>Цена</strong>
+          <span class="numbers">4 750 ₽ ₽</span>
+        </div>
+      </article>
+      <article class="card">
+        <img class="card_img" src="/assets/card-5.png" alt="card-5" />
+        <p class="specific">для нормальной кожи</p>
+        <p class="name">Подарочный набор №5</p>
+        <p class="description">
+          Весь набор средств Invisible symphony, крем, маска, мусс и гель для
+          умывания.
+        </p>
+        <div class="compound">
+          <span>Состав:</span>
+          <ul class="components">
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="cost">
+          <strong>Цена</strong>
+          <span class="numbers">7 520 ₽</span>
         </div>
       </article>
     </main>
