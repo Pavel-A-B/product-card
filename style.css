@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/assets/dandelion.png");
+  background-image: url("/assets/dandelion_bg.png");
   background-repeat: no-repeat;
   background-position: 715px 0px;
 }
