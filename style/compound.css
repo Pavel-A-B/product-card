@@ -1,0 +1,22 @@
+.compound {
+  color: #515076;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.compound__name {
+  width: 100%;
+}
+
+.compound__list {
+  list-style: circle;
+  margin: 0;
+  padding: 0px;
+}
+
+.compound__list li {
+  margin-left: 15px;
+  margin-top: 5px;
+}
