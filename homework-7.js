@@ -20,7 +20,7 @@ const checkLight = (v) => {
 
 checkLight(300000);
 
-tovar = {
+let tovar = {
   name: "car",
   summa: (cost = 100),
 };
