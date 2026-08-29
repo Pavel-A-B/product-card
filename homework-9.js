@@ -22,7 +22,13 @@ const listOfMovies = [
   "Унесённые призраками",
 ];
 
-const listOfMoviesIncludes = listOfMovies.includes("Начало");
+const listOfMoviesIncludes = (movie) => {
+  if (typeof movie === "string") {
+    return listOfMovies.includes(movie);
+  } else {
+    return "Неверный формат входных данных";
+  }
+};
 
 //Написать функцию, которая аргументом будет принимать массив и изменять его порядок на
 //противоположный ("переворачивать") . Два вышеуказанных массива с помощью этой функции перевернуть.
@@ -39,8 +45,6 @@ reverseFunction(numbers);
 const searhMail = exampleOfComments.filter((example) =>
   example.email.includes(".com"),
 );
-
-//console.log(searhMail);
 
 //Перебрать массив таким образом, что бы пользователи с id меньше или равно 5 имели postId: 2, а те, у кого id больше 5, имели postId: 1
 
