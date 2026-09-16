@@ -39,7 +39,6 @@
                 <b>Цена</b>
                 <div>
                   <span></span>
-                  <span>&#x20bd;</span>
                 </div>
               </div>
             </article>
@@ -47,11 +46,115 @@
         </div>
       </div>
     </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__column footer__leftside">
+          <h2 class="footer__productcards">Product Cards</h2>
+          <p class="footer__description">
+            У Нас Самые Лучшие Продукты Для Кожи!
+          </p>
+          <ul class="socialmedia__icons">
+            <li>
+              <a href="https://web.telegram.org/"
+                ><img src="assets/tg_logo.png" alt="tg_logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://vk.ru/"
+                ><img src="assets/vk_logo.png" alt="vk_logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column footer__center">
+          <p class="subscribe-us">Подпишись на наши акции:</p>
+          <form class="footer__form">
+            <input
+              name="email"
+              type="email"
+              required
+              placeholder="Введи Email..."
+              class="email__input"
+            />
+            <button type="submit" class="footer__submit">Подписаться</button>
+          </form>
+        </div>
+        <nav class="footer__rightside">
+          <p class="nav__title">Быстрые ссылки</p>
+          <ul class="nav__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button type="button" class="registrationBtn">Регистрация</button>
+      <div class="overlay"></div>
+      <div class="modal">
+        <button class="modal__close">
+          <img
+            style="width: 20px; height: 20px"
+            src="assets/cross.png"
+            alt="cross"
+          />
+        </button>
+        <h2 class="modal__title">Регистрация</h2>
+        <form class="modal__form">
+          <p>Имя</p>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="Введите Имя"
+            required
+          />
+          <p>Фамилия</p>
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Введите Фамилию"
+            required
+          />
+          <p>Дата рождения</p>
+          <input type="date" name="birthDate" required />
+          <p>Логин</p>
+          <input
+            type="text"
+            name="login"
+            placeholder="Придумайте логин"
+            required
+          />
+          <p>Пароль</p>
+          <input
+            type="password"
+            name="password"
+            placeholder="Придумайте пароль"
+            required
+            minlength="4"
+            maxlength="8"
+          />
+          <p>Повторите пароль</p>
+          <input
+            type="password"
+            name="repeatPassword"
+            placeholder="Повторите пароль"
+            required
+            minlength="4"
+            maxlength="8"
+          />
+          <button type="submit">Регистрация</button>
+        </form>
+      </div>
+      <div class="footer__bottom">
+        <hr class="horizontal__line" />
+        <p class="copyright">www.product-cards.com©all right reserve</p>
+      </div>
+    </footer>
 
     <script src="main.js"></script>
     <script src="homework-7.js"></script>
     <script src="homework-8.js"></script>
     <script type="module" src="homework-9.js"></script>
     <script type="module" src="homework-10.js"></script>
+    <script type="module" src="homework-11.js"></script>
   </body>
 </html>
